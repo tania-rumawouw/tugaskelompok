@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>  </title>
+  </head>
+  <body>
+    <header>
+	  <h1>Buat Account Baru!<h1>
+	  <h3> Sign Up Form</h3>
+	</header>
+	<form action="./berhasilmendaftar.html" method="post">
+	<label for="firstname"> First Name:</label>
+	<br>
+	<input type="text" name="firstname" id="firstname" required>
+	<br>
+	<br>
+	<label for="lastname"> Last Name:</label>
+	<br>
+	<input type="text" name="lastname" id="lastname" required>
+	<br><br>
+	<label for="gender">Gender</label>
+	<br>
+	<input type="radio" name="gender" value="" id="gender-male" required>
+	<label for="gender-male">Male</label>
+	<br>
+	<input type="radio" name="gender" value="" id="gender-female" required>
+	<label for="gender">Female</label>
+	<br><br>
+	<label for="nationality">Nationality:</label>
+	<br>
+	<select name="nationality" id="nationality">
+	  <option value="indonesia"> Indonesia</option>
+	  <option value="malaysia"> Malaysia</option>
+	</select>
+	<br><br>
+	<label for="bahasa">Language Spoken:</label>
+	<br>
+	<input type="checkbox" name="bahasa" value="" id="bahasa-indonesia">
+	<label for="bahasa-indonesia">Bahasa Indonesia</label><br>
+	<input type="checkbox" name="bahasa" value="" id="bahasa-inggris">
+	<label for="bahasa-inggris">English</label><br>
+	<input type="checkbox" name="bahasa" value="" id="bahasa-other">
+	<label for="radio-others">Other</label><br><br>
+	<label for="bio">Bio:</label><br>
+	<textarea name="bio" rows="8" cols="50"></textarea><br>
+	<input type="submit" value="Sign Up">
+	</form>
+  </body>
+</html>
